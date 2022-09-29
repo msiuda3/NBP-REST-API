@@ -9,7 +9,7 @@
  `sourceCurrencyValue` = Non-negative value in the initial currency. Default value: `1` <br/>
  `exchangeDate` = Date from which to draw the exchange rates in yyyy-mm-dd format . Default value: current day <br/>
  <br/><br/><br/>
- In case of a missing paramter, the API will use the default value. In case of an invalid parameter the API will return 400 error.<br/>
+ In case of a missing paramter, the API will use the default value. In case of an invalid parameter the API will return 400 error. If the API won't be able to get exchange rate for a given currency code, it will return 404 error.<br/>
  The response is given in a json format with folowing properties:
  <br/><br/>
  `sourceCurrencyCode`: 3-letter code of the initial currency was converted from <br/>
