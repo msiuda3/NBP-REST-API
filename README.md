@@ -1,5 +1,9 @@
 # NBP-REST-API
  A RESTful API returning converted currency. API built using Spring Boot
+# Running the application
+With maven installed run:
+``` mvn clean spring-boot:run ```
+The API should be available on http://localhost:8080
 # Usage
  API accepts GET request on endpoint `/convertion` that returns converted value for given currencies and value of the source currency.
  Endpoint accepts following parameters: <br/>
