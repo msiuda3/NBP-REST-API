@@ -1,4 +1,4 @@
-package com.example.NBPRESTService.Service;
+package com.example.NBPRESTService.service;
 
 import com.example.NBPRESTService.model.ExchangeRate;
 import com.example.NBPRESTService.repository.CacheRepository;

@@ -1,7 +1,6 @@
-package com.example.NBPRESTService.Service;
+package com.example.NBPRESTService.service;
 
 import com.example.NBPRESTService.model.ConversionResponse;
-import com.example.NBPRESTService.repository.CacheRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

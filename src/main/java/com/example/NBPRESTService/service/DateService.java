@@ -1,4 +1,4 @@
-package com.example.NBPRESTService.Service;
+package com.example.NBPRESTService.service;
 
 import org.springframework.stereotype.Service;
 

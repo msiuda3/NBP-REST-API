@@ -1,6 +1,5 @@
-package com.example.NBPRESTService.Service;
+package com.example.NBPRESTService.service;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -53,7 +52,7 @@ class InputValidationServiceTest {
         assertFalse(result);
     }
     @Test
-    public void shouldValidateDateWithTooMatchYearCharacters(){
+    public void shouldValidateDateWithTooMuchYearCharacters(){
         //given
         String exchangeDate = "20222-02-30";
         //when

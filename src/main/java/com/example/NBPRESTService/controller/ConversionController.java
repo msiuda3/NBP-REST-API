@@ -1,22 +1,15 @@
 package com.example.NBPRESTService.controller;
 
-import com.example.NBPRESTService.Service.CurrencyConversionService;
-import com.example.NBPRESTService.Service.DateService;
-import com.example.NBPRESTService.Service.InputValidationService;
+import com.example.NBPRESTService.service.CurrencyConversionService;
+import com.example.NBPRESTService.service.DateService;
+import com.example.NBPRESTService.service.InputValidationService;
 import com.example.NBPRESTService.exception.InvalidDataException;
-import com.example.NBPRESTService.exception.ResultNotFoundException;
 import com.example.NBPRESTService.model.ConversionResponse;
-import com.example.NBPRESTService.repository.CacheRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.swing.text.DateFormatter;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 @RestController
 public class ConversionController {

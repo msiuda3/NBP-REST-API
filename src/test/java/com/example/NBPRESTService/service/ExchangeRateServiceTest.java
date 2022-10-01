@@ -1,14 +1,10 @@
-package com.example.NBPRESTService.Service;
+package com.example.NBPRESTService.service;
 
 import com.example.NBPRESTService.exception.ResultNotFoundException;
 import com.example.NBPRESTService.model.ExchangeRate;
 import com.example.NBPRESTService.repository.CacheRepository;
-import org.junit.Rule;
 import org.junit.jupiter.api.Test;
-import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
-import org.mockito.stubbing.OngoingStubbing;
-import org.mockito.verification.VerificationMode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
