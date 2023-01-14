@@ -29,9 +29,9 @@ public class ConversionController {
     @Value("${messages.error.currencyTarget}")
     private String BAD_TARGET_CURRENCY;
     @Value("${messages.error.currencyValue}")
-    private final String BAD_AMOUNT = "BAD AMOUNT";
+    private String BAD_AMOUNT;
     @Value("${messages.error.exchangeDate}")
-    private final String BAD_EXCHANGE_DATE = "BAD DATE";
+    private String BAD_EXCHANGE_DATE;
 
     @GetMapping("/convertion")
     public ConversionResponse convert(
